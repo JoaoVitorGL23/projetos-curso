@@ -1,0 +1,546 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Kanit', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+/* HEADER DO SITE */
+
+header{
+	padding: 2% 5%;
+}
+
+header img{
+
+}
+
+header ul.menu-desktop{
+	float: right;
+}
+
+header ul.menu-desktop li {
+	list-style-type: none;
+	float: left;
+}
+
+header ul.menu-desktop li a{
+	text-decoration: none;
+	padding: 0 10px;
+	color: #ccc;
+	cursor: pointer;
+}
+
+header ul.menu-desktop li a:hover{
+	color: black;
+}
+
+.menu-mobile{
+	margin-top: 7px;
+	float: right;
+	display: none ;
+	background-image: url('../img/menu-mobile.png');
+	width: 27px;
+	height: 27px;
+	background-position: center;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+.menu-mobile ul{
+	display: none;
+	text-align: center;
+	width: 100%;
+	background-color: white;
+	position: absolute;
+	top: 55px;
+	left: 0;
+
+}
+
+.menu-mobile ul li{
+	padding: 3px 0;
+}
+
+.menu-mobile ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ccc;
+	border-bottom: 2px solid black;
+}
+
+.menu-mobile ul li a:hover{
+	color: red;
+}
+
+/* HEADER DO SITE */
+
+/* MOSAICO */
+
+section.mosaico{
+	padding: 0 2%;
+	display: ;
+
+}
+
+.mosaico-wraper{
+	float: left;
+	width: calc(100% / 6);
+
+}
+
+.mosaico-wraper .mosaico-img{
+	width: 100%;
+	padding-top: 100%;
+	background-color: #ccc;
+	border: 4px solid white;
+
+}
+
+/* MOSAICO */
+
+
+/* TEXTO ABAIXO DO MOSAICO */
+
+section.textotre{
+	width: 100%;
+	padding: 0 10%;
+	background-color:;
+	display: flex;
+	position: relative;
+	top: -5%;
+	align-items: center;
+}
+
+.texto-single{
+	text-align: center;
+	background-image: url(../img/icone_dente.png);
+	background-size: 17px 17px;
+	background-repeat: no-repeat;
+	background-position: center calc(100% - 2%);
+}
+
+.texto-single:nth-of-type(1){
+	color: white;
+	width: 30%;
+	padding: 20px 45px;
+	background-color: #4287f5;
+}
+
+.texto-single:nth-of-type(2){
+	color: white;
+	width: 40%;
+	padding: 55px 45px;
+	background-color: #1653b5;
+}
+.texto-single:nth-of-type(3){
+	color: white;
+	padding: 20px 45px;
+	width: 30%;
+	background-color: #4287f5;
+}
+
+
+/* TEXTO ABAIXO DO MOSAICO */
+
+
+/* PESSOAL */
+
+section .container{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	height: 100%;
+
+}
+
+.container .img-pessoal{
+	width: 70%;
+	max-width: 500px;
+	padding-top: 50%;
+	background-image: url(../img/img_perfil.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container .texto-pessoal{
+	width: 100%;
+	padding: 0 40px;
+
+}
+
+.texto-pessoal h2{
+	font-size: 30px;
+}
+
+.texto-pessoal p{
+	font-size: 14px;
+
+}
+
+
+section.videos-pessoal{
+	width: 100%;
+	padding: 15px 2%;
+	background-color: ;
+}
+
+.videos-pessoal .box-video{
+	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 33.3%;
+	padding-top: 17%;
+	border: 5px solid white;
+}
+
+/* PESSOAL */
+
+/* VIDEOS */
+.box-video iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* VIDEOS */
+
+section.tratamento{
+	background-color: ;
+	width: 100%;
+	height: auto;
+	padding: 40px 2%;
+}
+
+section.tratamento h3{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 0;
+	color: #6d96e3;
+}
+
+.tratamento .container-tratamento{
+	width: 33.3%;
+	float: left;
+	padding: 25px 4px;
+
+}
+
+.container-tratamento .single-tratamento{
+	text-align: left;
+}
+
+.single-tratamento h2{
+	padding: 2px 0;
+}
+
+.single-tratamento p{
+	padding: 5px 0;
+}
+
+.depoimento{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.container-depoimento{
+	padding: 0 5%;
+}
+
+.container-depoimento h2{
+	font-size: 25px;
+	color: #6d96e3;
+}
+
+.container-depoimento p{
+	width: 25%;
+	margin: 7px auto;
+	font-size: 13px;
+}
+
+.container-depoimento img{
+	position: relative;
+	top: 11px;
+	left: -2px;
+
+}
+
+.social-container{
+	padding: 80px 0;
+}
+
+.insta-container{
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: #4e7ead;
+	padding: 30px 0;
+}
+
+.insta-container p{
+	padding: 7px 0;
+	color: #ccc;
+}
+
+.imagens-mosaico{
+	width: 100%;
+}
+
+.imagens-single{
+	float: left;
+	width: calc(100% / 9);
+	padding-top: calc(100% / 9);
+	background-color: red;
+	border: 5px solid white;
+}
+
+.contato form{
+	width: 100%;
+	padding: 0 2%;
+		color:#3c8fcf;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+form h2{
+	color:#177fcf;
+
+}
+.container-form p{
+	text-align: left;
+}
+
+.container-form{
+	padding: 10px 10px;
+
+}
+
+.wraper-100{
+	margin: 10px auto;
+	width: 100%;
+}
+
+.wraper-50{
+	display: block;
+	float: left;
+	padding: 20px 5px;
+	width: 50%;
+}
+
+input[type=text]{
+	width: 100%;
+	padding: 4px 4px;
+}
+
+.wraper-100 textarea{
+	width: 100%;
+	height: 200px;
+	resize: none;
+	padding: 5px 5px;
+}
+
+input[type=submit]{
+	width: 30%;
+	height: 34px;
+	border: 0;
+	cursor: pointer;
+	background-color: blue;
+	color: white;
+
+}
+
+.footer-block{
+	width: 100%;
+	padding: 30px 2%; 
+	margin-top: 30px;
+	text-align: center;
+	background-color: #1190f2;
+	color: white;
+
+}
+
+.single-footer{
+	float: left;
+	width: calc(100% / 3) ;
+	
+}
+
+
+
+
+@media screen and (max-width: 1023px ){
+	.menu-desktop{
+		display: none;
+	}
+
+	.menu-mobile{
+		display: block;
+	}
+
+	.menu-mobile:hover ul{
+		display: block;
+	}
+
+	.menu-mobile ul:hover{
+		display: block;
+	}
+
+	section.textotre{
+	width: 100%;
+	padding: 0 10%;
+	display: inline-block;
+	margin: 40px 0;
+}
+
+.texto-single{
+	text-align: center;
+	background-image: url(../img/icone_dente.png);
+	background-size: 17px 17px;
+	background-repeat: no-repeat;
+	background-position: center calc(100% - 2%);
+	
+}
+
+.texto-single:nth-of-type(1){
+	color: white;
+	width: 80%;
+	padding: 20px 45px;
+	background-color: #4287f5;
+	margin: 0 auto;
+}
+
+.texto-single:nth-of-type(2){
+	color: white;
+	width: 100%;
+	padding: 55px 45px;
+	background-color: #1653b5;
+	margin: 0 auto;
+}
+.texto-single:nth-of-type(3){
+	color: white;
+	padding: 20px 45px;
+	width: 80%;
+	background-color: #4287f5;
+	margin: 0 auto;
+}
+
+section .container{
+	width: 100%;
+	display: block;
+	margin-top: -32%;
+}
+
+.container .img-pessoal{
+	width: 100%;
+	max-width: 300px;
+	padding-top: 100%;
+	background-image: url(../img/img_perfil.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0px auto;
+}
+
+.container .texto-pessoal{
+	width: 100%;
+	margin-top: -20%;
+	text-align: justify;
+
+}
+
+.texto-pessoal h2{
+	font-size: 30px;
+	text-align: center;
+}
+
+.texto-pessoal p{
+	font-size: 14px;
+
+}
+
+.imagens-single{
+	float: left;
+	width: calc(100% / 6);
+	padding-top: calc(100% / 6);
+	background-color: red;
+	border: 5px solid white;
+
+}
+
+.imagens-mosaico > div:nth-of-type(1n + 7){
+	display:none ;
+}
+
+}
+
+
+@media screen and (max-width: 641px ){
+
+	.container .texto-pessoal{
+	width: 100%;
+	margin-top: -10%;
+	text-align: justify;
+
+}
+
+.menu-mobile ul{
+	position: absolute;
+	top: 45px;
+	left: 0;
+}
+
+section .container{
+	width: 100%;
+	display: block;
+	margin-top: -25%;
+}
+
+
+.container-depoimento p{
+	width: 55%;
+}
+
+
+.imagens-single{
+	width: calc(100% / 4);
+	padding-top: calc(100% / 4);
+}
+
+.imagens-mosaico > div:nth-of-type(1n + 5){
+	display: none;
+}
+
+
+.footer-block{
+	width: 100%;
+	padding: 30px 2%; 
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+.single-footer{
+	float: none;
+	width: 100% ;
+	padding-top: 20px;
+	
+}
+
+
+}

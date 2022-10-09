@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+/* MENU  HEADER*/
+
+section.menu-header{
+	width: 100%;
+	height: ;
+	background-color: #ccc;
+	padding: 20px 0;
+
+}
+
+.menu-header .logo1{
+	width: 150px;
+	height: 70px;
+	background-color:;
+	float: left;
+	margin-left: 15%;
+	background-image: url(../img/logo1.png);
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.menu-header .logo2{
+	width: 140px;
+	height: 70px;
+	background-color:;
+	float: right;
+	margin-right: 15%;
+	background-image: url(../img/logo2.png);
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* MENU  HEADER*/
+
+
+/* FORMULARIO / BANNER BG */
+
+
+section .container{
+	width: 90%;
+	height: 500px;
+	background-color: red;
+	background-image: url(../img/bg.jpg);
+	margin: 0 5%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.container .form{
+	height: 100%;
+	width: 25%;
+	float: right;
+	margin-right: 45px;
+	border: 1px solid black;
+	text-align: center;
+	background-color: white;
+}
+
+.form h2{
+	background-color: #cfcaca;
+}
+
+.form form{
+	padding: 20px;
+	text-align: left;	
+}
+
+form .wrap{
+	margin-top: 30px;
+}
+
+form .wrap:first-child{
+	margin-top: -5px;
+}
+
+form .wrap input[type=text]{
+	width: 100%;
+	height: 35px;
+	
+}
+
+form .wrap input[type=email]{
+	width: 100%;
+	height: 35px;
+	
+}
+
+
+.wrap input[type=submit]{
+	width: 100%;
+	height: 40px;
+	margin: 40px auto;
+	background-color: #0a6658;
+	cursor: pointer;
+	border: 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+
+/* FORMULARIO / BANNER BG */
+
+
+/* MSG CHAMATIVA */
+section.msgchamativa{
+	width: 90%;
+	background-color: blue;
+	margin: 0 5%;
+	text-align: center;
+	height: 90px;
+	padding-top: 11px;
+}
+
+ .msg h2{
+	color: white;
+}
+
+/* MSG CHAMATIVA */
+
+
+/* MOSAICO RESPONSIVO */
+section.mosaico{
+	width: 90%;
+	margin: 0 5%;
+	height: auto;
+	background-color: #9dc9c1 ;
+}
+
+.mosaicoresp{
+	display: flex;
+}
+
+.mosaicoresp .imgmosaico{
+	width: 60%;
+	height: 180px;
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+.mosaicoresp p{
+	width: 40%;
+	padding: 30px;
+	text-align: justify;
+	color: white;
+}
+
+/* MOSAICO RESPONSIVO */
+
+
+footer{
+	width: 90%;
+	margin: 30px 5%;
+	text-align: center;
+	border-top: 1px solid black;
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 980px){
+	
+	header{
+		text-align: center;
+
+		
+	}
+
+	section.menu-header .logo1{
+		float: none;
+		display: inline-block;
+		margin: 10px auto;
+	}
+
+	section.menu-header .logo2{
+		float: none;
+		display: inline-block;
+		margin: 10px auto;
+	}
+
+	.container .form{
+		width: 80%;
+		margin: 0 10%;
+	}
+
+	.mosaicoresp{
+	display: block;
+	}
+
+	.mosaicoresp .imgmosaico{
+		width: 100%;
+	}
+
+	.mosaicoresp p{
+		width: 100%;
+	}
+
+}

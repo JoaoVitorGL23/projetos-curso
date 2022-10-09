@@ -1,0 +1,511 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	background-image: url(../img/capa.png);
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section.container{
+	width: 100%;
+	height: 100%;
+	padding: 2% 2%;
+	background-color: 
+}
+
+div.logo1{
+	width: 180px;
+	height: 60px;
+	background-color: blue;
+	float: left;
+}
+
+nav.desktop li{
+	float: right;
+	list-style-type: none;
+	margin-top: -40px;
+}
+
+.mobile:hover ul{
+	display: block;
+	width: 100%;
+}
+
+nav.mobile {
+	display: none;
+	width: 33px;
+	height: 33px;
+	background-image: url(../img/menu.png);
+	float: right;
+	margin-top: -45px;
+	margin-right: 10px;
+	cursor: pointer;
+	
+}
+
+.mobile ul{
+	display: none;
+	width: 100% ;
+	height: auto;
+	text-align: center;
+	background-color: #ccc;
+	position: absolute;
+	left: 0;
+	top: 55px;
+	list-style-position: none;
+}
+
+.mobile ul li{
+	padding: 5px 0;
+}
+
+.mobile ul li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-top: 6px;
+	border-bottom: 3px solid red;
+	opacity: 0.7;
+}
+
+.mobile ul li a:hover{
+	opacity: 1;
+	font-weight: bold;
+}
+
+.desktop li a{
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+	font-size: 18px;
+}
+
+div.chamada1{
+	width: 100%;
+	max-width: 600px;
+	background-color: ;
+	float: right;
+	margin: 110px 210px;
+	padding: 15px 5px;
+}
+
+.chamada1 h2{
+	color: white;
+	font-size: 35px;
+}
+
+.chamada1 p{
+	margin-top: 10px;
+	color: white;
+	font-size: 19px;
+}
+
+section.chamadasection{
+	background-color: #501c9e;
+	width: 100%;
+	height: 280px;
+	color: white;
+}
+
+.chamada{
+	float: left;
+	margin-top: 50px;
+	margin-left: 15px;
+}
+
+.container-chamada{
+	padding: 0 9%;
+}
+
+.chamada h2{
+	font-size: 37px;
+}
+
+.chamada p{
+	margin-top: 10px;
+	font-size: 19px;
+}
+
+.chamada ul{
+	list-style-position: inside;
+	margin-top: 5px;
+	font-size: 17px;
+}
+
+.chamada .button{
+	width: 160px;
+	height: 30px;
+	background-color: orange;
+	border-radius: 30px;
+	text-align: center;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.button p{
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.container-chamada .cell{
+	width: 450px;
+	height: 350px;
+	float: right;
+	background-image: url(../img/device.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	left: -15px;
+	top: -70px;
+}
+
+
+section.chamada2{
+	display: inline-block;
+	width: 90%;
+	margin: -3% 5%;
+	text-align: center;
+
+}
+
+.chamada2 h2{
+	margin-top: 60px;
+	text-align: center;
+	font-size: 32px;
+	color: #8951f0;
+
+}
+
+.chamada2 p{
+	text-align: center;
+	font-size: 18px;
+	width: 50%;
+	margin: 30px auto;
+
+}
+
+.chamada2 img{
+	width: 100%;
+	position: relative;
+	top: 60px;
+}
+
+section.chamada3{
+	width: 100%;
+
+}
+
+.chamada3 .pessoal1{
+	width: 50%;
+	background-color: #7532f0;
+	float: left;
+	height: 322px;
+
+}
+
+.chamada3 .pessoal2{
+	width: 50%;
+	background-color:;
+	float: right;
+	height: 372px;
+
+}
+
+.pessoal1{
+	color: white;
+	padding: 110px 10px 90px 110px;
+}
+
+.pessoal1 p{
+	margin-top: 5px;
+}
+
+.pessoal2{
+	padding: 110px 110px 90px 13px;
+}
+
+.pessoal2 p{
+	margin: -35px 0;
+}
+
+.pessoal2 .texto{
+	margin: 45px 0;
+}
+
+.pessoal2 .img-autor{
+	display: block;
+	background-color: red;
+	width: 33px;
+	height: 33px;
+	border-radius: 16px;
+	position: relative;
+	top: -30px;
+	left: 170px;
+}
+
+.pessoal2 span{
+	width: 16px;
+	height: 16px;
+	background-color: #ccc;
+	display: inline-block;
+	border-radius: 8px;
+	position: relative;
+	top: -25px;
+	left: 4px;
+
+}
+
+.chamada4 {
+	width: 100%;
+	height: auto;
+	background-color: #501c9e;
+	margin-top: -50px;
+	display: inline-block;
+
+}
+
+.chamada4 .formulario{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 50px 50px 50px 50px;
+	height: 730px;
+}
+
+.formulario input[type=text]{
+	display: block;
+	padding-left: 5px;
+	width: 80%;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.formulario textarea{
+	display: inline-block;
+	width: 80%;
+	height: 300px;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+.formulario input[type=submit]{
+	width:180px;
+	height: 40px;
+	border-radius: calc(180px/2);
+	margin: 5% auto;
+	cursor: pointer;
+	background-color: orange;
+	border: 0;
+}
+
+.formulario p{
+	margin-top: 5px;
+	color: white;
+}
+
+.formulario h2{
+	color: white;
+	font-size: 32px;
+}
+
+
+.chamada4 .mapa{
+	width: 50%;
+	height: 730px;
+	float: right;
+	padding: 50px 50px 50px 70px;
+	display: inline-block;
+
+}
+
+.mapa h2{
+	text-align: center;
+	font-size: 32px;
+	color: white;
+}
+
+
+.mapa .mapa-int{
+	margin:49px auto;
+	width: 90%;
+	height: 480px;
+	border: 5px solid white;
+}
+
+
+@media screen and (max-width: 1280px){
+
+	.container-chamada .cell{
+	width: 350px;
+	height: 330px;
+	float: right;
+	background-image: url(../img/device.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	left: 0px;
+	top: -70px;
+	}
+
+	.chamada{
+	float: left;
+	margin-top: 50px;
+	margin-left: 0px;
+}
+
+.container-chamada{
+	padding: 0 1%;
+}
+
+section.chamadasection{
+	background-color: #501c9e;
+	width: 100%;
+	height: 260px;
+	color: white;
+}
+
+	.mapa .mapa-int{
+	margin:59px auto;
+	width: 100%;
+	height: 350px;
+	border: 5px solid white;
+}
+
+}
+
+@media screen and (max-width: 980px){
+
+
+	div.chamada1{
+	width: 100%;
+	background-color:;
+	float: none;
+	margin: 30% 0px;
+	padding: 0px 0px;
+	display: inline-block;
+	text-align: center;
+	}
+
+	section.chamadasection{
+	background-color: #501c9e;
+	width: 100%;
+	height: 350px;
+	color: white;
+}
+
+
+	.container-chamada .cell{
+		display: none;
+	}
+
+	.container-chamada{
+		padding: 0;
+	}
+
+	.chamada{
+		float: none;
+	}
+
+	.container-chamada .chamada{
+		display: inline-block;
+		text-align: center;
+		margin: 3% 20%;
+	}
+
+	.chamada .button{
+		margin: 5% 20% !important;
+		text-align: center;
+	}
+
+	nav.desktop{
+		display: none;
+	}
+
+	nav.mobile{
+		display: block;
+	}
+
+	.chamada2 img{
+		position: relative;
+		top: 8px;
+		left: 0;
+	}
+
+	.chamada3{
+		display: inline-block;
+	}
+	.chamada3 .pessoal1{
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding: 70px 25px;
+	}
+
+	.chamada3 .pessoal2{
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding: 70px 25px;
+	}
+
+	.chamada3 .img-autor{
+		float: none;
+		margin-right: 90px;
+		display: inline-block;
+	}
+
+	.chamada4 .formulario{
+	width: 100%;
+	height: auto;
+	float: none;
+	padding: 50px 50px 50px 50px;
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+
+	.formulario input[type=text]{
+	display: block;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.formulario textarea{
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+
+.chamada4 .mapa{
+	width: 100%;
+	height: auto;
+	float: none;
+	padding: 50px 50px 50px 70px;
+	display: inline-block;
+
+}
+
+
+}
+
